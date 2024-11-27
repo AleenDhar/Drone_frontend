@@ -28,15 +28,15 @@ export default function Home() {
   
 
   const [message, setMessage] = useState("["+String(aru)+"]");
-  const [currData, setcurrData] = useState({
-    "temp":0,
-    "r_x":0,
-    "r_y":0,
-    "r_z":0,
-    "a_x":0,
-    "a_y":0,
-    "a_z":0,
-  })
+  // const [currData, setcurrData] = useState({
+  //   "temp":0,
+  //   "r_x":0,
+  //   "r_y":0,
+  //   "r_z":0,
+  //   "a_x":0,
+  //   "a_y":0,
+  //   "a_z":0,
+  // })
 
   // function controlSpeed(val:number){
   //   setroll(val)
